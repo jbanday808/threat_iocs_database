@@ -6,15 +6,15 @@ Here are reference links for MySQL commands that might be helpful for you:
 
 **General Reference**: MySQL 8.0 Reference Manual:
 
-https://dev.mysql.com/doc/refman/8.0/en/
+**URL**: https://dev.mysql.com/doc/refman/8.0/en/
 
 **SQL Statements**:
 
-https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
+**URL**: https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
 
 **MySQL Workbench Guide: MySQL Workbench Manual**:
 
-https://dev.mysql.com/doc/workbench/en/
+**URL**: https://dev.mysql.com/doc/workbench/en/
 
 **MySQL SQL Syntax and Commands**:
 
