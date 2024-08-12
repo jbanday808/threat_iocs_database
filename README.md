@@ -8,10 +8,6 @@ Here are reference links for MySQL commands that might be helpful for you:
 
 https://dev.mysql.com/doc/refman/8.0/en/
 
-**SQL Statements**: SQL Statements:
-
-https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
-
 **Data Definition Statements**: Data Definition Statements:
 
 https://dev.mysql.com/doc/refman/8.0/en/sql-ddl-statements.html
