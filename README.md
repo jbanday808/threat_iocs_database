@@ -304,6 +304,15 @@ VALUES
 
 Alternatively, you can export the database using the CLI:
 
-mysqldump -u root -p threat_iocs > C:\path\to\your\directory\threat_iocs.sql
+**Bash**: mysqldump -u root -p threat_iocs > C:\path\to\your\directory\threat_iocs.sql
+
+Step 2: Prepare the Exported Data for GitHub
+
+1. **Navigate to the Project Directory**:
+
+- Use PowerShell to navigate to the directory where you saved the .sql file:
+
+**PowerShell**: cd C:\path\to\your\directory
+
 
 
