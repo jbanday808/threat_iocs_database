@@ -1,5 +1,33 @@
 **Comprehensive Guide**: **MySQL Threat IoCs Database Setup, Exporting Data, and GitHub Integration**
 
+Here are reference links for MySQL commands that might be helpful for you:
+
+**MySQL Documentation (Official)**:
+
+**General Reference**: MySQL 8.0 Reference Manual:
+
+https://dev.mysql.com/doc/refman/8.0/en/
+
+**SQL Statements**: SQL Statements:
+
+https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
+
+**Data Definition Statements**: Data Definition Statements:
+
+https://dev.mysql.com/doc/refman/8.0/en/sql-ddl-statements.html
+
+**Data Manipulation Statements**: Data Manipulation Statements:
+
+https://dev.mysql.com/doc/refman/8.0/en/sql-dml-statements.html
+
+**MySQL Workbench Guide: MySQL Workbench Manual**:
+
+https://dev.mysql.com/doc/workbench/en/
+
+**MySQL SQL Syntax and Commands**:
+
+https://dev.mysql.com/doc/refman/8.0/en/functions.html
+
 This guide provides step-by-step instructions for downloading, installing, and configuring MySQL on your local machine, setting up the MySQL Threat IoCs Database, exporting the database data, and managing the project with GitHub using PowerShell
 
 **Part 1**: **Downloading and Installing MySQL**
