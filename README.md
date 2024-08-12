@@ -288,3 +288,22 @@ VALUES
 ![adding_stratt_iocs](https://github.com/user-attachments/assets/a3a33c8b-bbb9-4fab-a82c-267c60e95523)
 
 **Figure 11**: Adding the Indicators of Compromise (IoCs) for the STRATT malware in the MySQL database
+
+**Part 4**: **Exporting MySQL Data and Importing it to GitHub via PowerShell CLI**
+
+**Step 1**: **Exporting the MySQL Database**
+
+**1**. **Export the Database**:
+
+- Open MySQL Workbench.
+- Go to the **Administration** tab.
+- Select **Data Export**.
+- Select the **threat_iocs** database.
+- Choose **Dump Structure** and **Data**.
+- Specify the export path and save it as a **.sql** file.
+
+Alternatively, you can export the database using the CLI:
+
+mysqldump -u root -p threat_iocs > C:\path\to\your\directory\threat_iocs.sql
+
+
