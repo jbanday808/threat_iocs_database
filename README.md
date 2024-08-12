@@ -363,3 +363,28 @@ Add the remote repository to your local Git configuration. Replace <yourusername
 **Step 7**: **Push the Local Repository to GitHub**
 
 Push your local commits to the remote repository on GitHub.
+
+**Step 8**: **Verify the Repository on GitHub**
+
+Go to your GitHub repository at https://github.com/jbanday808/mysql-threat-iocs-database and verify that your files have been successfully uploaded.
+
+**Step 9**: **Update the Repository as Needed**
+
+As you make changes to your database schema or add more IoCs, you can commit these changes and push them to GitHub using the following commands:
+
+**9.1 Stage the Changes**:
+
+**PowerShell**: git add .
+
+9.2 Commit the Changes:
+
+**PowerShell**: git commit -m "Updated database schema and added new IoCs."
+
+9.3 Push the Changes to GitHub:
+
+**PowerShell**: git push
+
+**Conclusion**:
+
+By following this comprehensive guide, you will have successfully downloaded, installed, and configured MySQL, set up the MySQL Threat IoCs database, exported the database data, and managed your project with GitHub using PowerShell. This process ensures that you have a version-controlled environment for your database schema, allowing for continuous updates, collaboration, and efficient management of your IoCs data.
+
