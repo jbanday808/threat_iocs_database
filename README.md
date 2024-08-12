@@ -28,15 +28,17 @@ https://dev.mysql.com/doc/refman/8.0/en/functions.html
 
 **URL**: https://www.tutorialspoint.com/mysql/index.htm
 
-MySQL Official Blog
+**MySQL Official Blog**:
 
-URL: https://blogs.oracle.com/mysql/
-Stack Overflow - MySQL Questions
+**URL**: https://blogs.oracle.com/mysql/
 
-URL: https://stackoverflow.com/questions/tagged/mysql
-SQLZoo MySQL Tutorial
+**Stack Overflow - MySQL Questions**:
 
-URL: https://sqlzoo.net/wiki/MySQL_Tutorial
+**URL**: https://stackoverflow.com/questions/tagged/mysql
+
+**SQLZoo MySQL Tutorial**:
+
+**URL**: https://sqlzoo.net/wiki/MySQL_Tutorial
 
 **Database Journal - MySQL**:
 
