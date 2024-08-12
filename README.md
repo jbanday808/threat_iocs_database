@@ -322,5 +322,17 @@ Alternatively, you can export the database using the CLI:
 
 **PowerShell**: git commit -m "Added exported MySQL Threat IoCs Database."
 
+**4**. **Push the SQL File to GitHub**:
+
+**PowerShell**: git push
+
+**Part 5**: **Managing the Project with GitHub Using PowerShell**
+
+**Step 1**: **Navigate to the Project Directory**:
+
+Open PowerShell and navigate to the directory where your SQL schema files are located. For example:
+
+**PowerShell**: cd C:\Users\james\Documents\GitHub\MySQL_Schema
+
 
 
