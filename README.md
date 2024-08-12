@@ -306,13 +306,21 @@ Alternatively, you can export the database using the CLI:
 
 **Bash**: mysqldump -u root -p threat_iocs > C:\path\to\your\directory\threat_iocs.sql
 
-Step 2: Prepare the Exported Data for GitHub
+**Step 2**: Prepare the Exported Data for GitHub
 
-1. **Navigate to the Project Directory**:
+**1**. **Navigate to the Project Directory**:
 
 - Use PowerShell to navigate to the directory where you saved the .sql file:
 
 **PowerShell**: cd C:\path\to\your\directory
+
+**2**. **Add the SQL File to the Repository**:
+
+**PowerShell**: git add threat_iocs.sql
+
+**3**. **Commit the SQL File**:
+
+**PowerShell**: git commit -m "Added exported MySQL Threat IoCs Database."
 
 
 
