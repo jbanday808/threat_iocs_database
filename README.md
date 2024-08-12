@@ -20,6 +20,14 @@ https://dev.mysql.com/doc/workbench/en/
 
 https://dev.mysql.com/doc/refman/8.0/en/functions.html
 
+**W3Schools MySQL Tutorial**:
+
+**URL**: https://www.w3schools.com/mysql/
+
+**TutorialsPoint MySQL Tutorial**:
+
+**URL**: https://www.tutorialspoint.com/mysql/index.htm
+
 This guide provides step-by-step instructions for downloading, installing, and configuring MySQL on your local machine, setting up the MySQL Threat IoCs Database, exporting the database data, and managing the project with GitHub using PowerShell
 
 **Part 1**: **Downloading and Installing MySQL**
