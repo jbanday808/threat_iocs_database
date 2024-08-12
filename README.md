@@ -340,3 +340,26 @@ Initialize a new Git repository in your project directory.
 
 **PowerShell**: git init
 
+**Step 3**: **Add Files to the Repository**
+
+Add all the files in your directory to the Git staging area.
+
+**PowerShell**: git add .
+
+**Step 4**: **Commit Your Changes**
+
+Commit the added files to your Git repository with a meaningful message.
+
+**PowerShell**: git commit -m "Initial commit: Added MySQL Threat IoCs Database schema files."
+
+**Step 5**: **Create a New Repository on GitHub**
+
+Go to your GitHub account, create a new repository named mysql-threat-iocs-database, and leave it empty (without a README, .gitignore, or license).
+
+**Step 6**: **Add the Remote Repository**
+
+Add the remote repository to your local Git configuration. Replace <yourusername> with your actual GitHub username.
+
+**Step 7**: **Push the Local Repository to GitHub**
+
+Push your local commits to the remote repository on GitHub.
