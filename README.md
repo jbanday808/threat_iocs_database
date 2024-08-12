@@ -196,6 +196,22 @@ SET character_set_client = utf8mb4;
 
 **Figure 8**: This table associates campaigns with specific threat actors, defining the role of each actor within a campaign
 
+**2.9 Create the attack_techniques Table:**
+
+**Command**:  CREATE TABLE attack_techniques (
+  technique_id int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
+  description text DEFAULT NULL,
+  mitre_id varchar(50) DEFAULT NULL,
+  PRIMARY KEY (technique_id)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+![attack_techniques_Table](https://github.com/user-attachments/assets/8d47a08b-e1da-4547-98c9-b02a785ebc0a)
+
+**Figure 9**: This table stores information about attack techniques, including their name, description, and associated MITRE ID.
+
+
+
 
 
 
