@@ -334,5 +334,9 @@ Open PowerShell and navigate to the directory where your SQL schema files are lo
 
 **PowerShell**: cd C:\Users\james\Documents\GitHub\MySQL_Schema
 
+**Step 2**: **Initialize a New Git Repository**
 
+Initialize a new Git repository in your project directory.
+
+**PowerShell**: git init
 
