@@ -276,3 +276,15 @@ SET character_set_client = utf8mb4;
 
 **Step 3**: **Add STRATT Malware IoCs**
 
+**Command**: INSERT INTO iocs (ioc_type, indicator, description, confidence, first_seen, last_seen)
+VALUES
+('hash', 'e61ec62c05f24d878432305d47cf1a72', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10'),
+('hash', '804ec801d0a79815e32834b36edfc65b', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10'),
+('hash', '3d6c063d9183feff60847c81ca1f4e26', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10'),
+('hash', 'd28e484be0922fce5018edc36e4e7c7b', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10'),
+('hash', 'df70f0abbbf32f86ff5e2426e5c89463', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10'),
+('hash', '6c6b4b50258f73741044e91698ff2254', 'STRATT malware hash', 90, '2024-08-10', '2024-08-10');
+
+![adding_stratt_iocs](https://github.com/user-attachments/assets/a3a33c8b-bbb9-4fab-a82c-267c60e95523)
+
+**Figure 11**: Adding the Indicators of Compromise (IoCs) for the STRATT malware in the MySQL database
