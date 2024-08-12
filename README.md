@@ -258,8 +258,21 @@ SET character_set_client = utf8mb4;
 
 **Figure 9**: This table stores information about attack techniques, including their name, description, and associated MITRE ID.
 
+**2.10 Create the campaign_techniques Linking Table**:
+
+**Command**: CREATE TABLE campaign_techniques (
+  campaign_id int(11) NOT NULL,
+  technique_id int(11) NOT NULL,
+  used_date date DEFAULT NULL,
+  PRIMARY KEY (campaign_id, technique_id),
+  FOREIGN KEY (campaign_id) REFERENCES campaigns (campaign_id) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY (technique_id) REFERENCES attack_techniques (technique_id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+![campaign_techniques_Linking_Table](https://github.com/user-attachments/assets/3aee9c45-a235-45d8-b1ce-ca03550ccd4a)
 
 
+**Figure 10**: This table associates attack techniques with campaigns, including the date the technique was used.
 
-
+**Step 3**: **Add STRATT Malware IoCs**
 
