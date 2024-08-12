@@ -48,6 +48,10 @@ https://dev.mysql.com/doc/refman/8.0/en/functions.html
 
 **URL**: https://planet.mysql.com/
 
+S**TRRAT Malware – Active IOCs**:
+
+**URL**: https://www.rewterz.com/threat-advisory/strrat-malware-active-iocs
+
 This guide provides step-by-step instructions for downloading, installing, and configuring MySQL on your local machine, setting up the MySQL Threat IoCs Database, exporting the database data, and managing the project with GitHub using PowerShell
 
 **Part 1**: **Downloading and Installing MySQL**
